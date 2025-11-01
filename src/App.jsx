@@ -12,7 +12,7 @@ import List from './pages/List/List';
 import Orders from './pages/Orders/Orders';
 
 const App = () => {
-  const url = 'http://localhost:4000';
+  const url = 'https://foodapp-server-2g8f.onrender.com';
 
   return (
     <div>
