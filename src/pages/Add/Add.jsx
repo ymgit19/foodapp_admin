@@ -9,7 +9,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const Add = () => {
-  const url = 'http://localhost:4000';
+  const url = 'https://foodapp-server-2g8f.onrender.com';
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: '',
